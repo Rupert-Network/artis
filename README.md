@@ -1,2 +1,2 @@
 # artis
-Python Iris Feature Extractor
+Golang Iris Feature Extractor
