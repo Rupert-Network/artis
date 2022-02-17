@@ -1,6 +1,6 @@
 # Artis
 
-Artis is a iris hashing tool written in golang used for creating course iris ID's
+Artis is a iris hashing tool written in golang used for creating coarse iris ID's
 
 ## Citations
 
