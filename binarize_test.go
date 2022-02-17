@@ -21,7 +21,7 @@ func TestBinarize(t *testing.T) {
 	bImg := Binarize(gImg, 4)
 
 	// Write image out to images for visual analysis
-	if _, err := imgio.ImreadRGBA("images/irisedge01.jpeg"); err != nil {
+	if _, err := imgio.ImreadRGBA("images/irisbinarized01.jpeg"); err != nil {
 		err = imgio.Imwrite(bImg, "images/irisbinarized01.jpeg")
 		assert.Nil(t, err)
 	}
